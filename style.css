@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.background-change{
+    background: radial-gradient(ellipse at center, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0.61) 6%,rgba(0,0,0,0.49) 25%,rgba(0,0,0,0) 100%), url("./media/Mutiny2.jpg");
+    /* background-position: */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    transition: all 50s linear;
+}
+.heading {
+    text-align: center;
+    padding: 4rem;
+    padding-top: 2rem;
+}
+.heading h1,
+.heading p {
+    font-size: 2.5rem;
+    padding: .5rem;
+    color: honeydew;
+    text-shadow: 1px 1px 2px indianred;
+}
+
+ section{
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    border: 1px solid black;
+    background-color: rgba(10, 10, 10, 0.746);
+    box-shadow: 2px 2px 5px 5px gray;
+    padding: 1rem;
+}
+.form-holder h2{
+    padding: 1.2rem 1rem;
+    color: honeydew;
+    text-shadow: 1px 1px 2px indianred;
+}
+.option-group{
+    text-align: left;
+    padding: .5rem;
+    color: honeydew;
+    text-shadow: 1px 1px 2px indianred;
+}
+/* .option-group .form{
+    border-bottom: 1px solid blue;
+} */
+.button-holder {
+    /* display: inline-block; */
+    width: 50%;
+    margin: 0 auto;
+    /* text-align: left; */
+    padding: .5rem 0;
+}
+.btn{
+    padding: .5rem 1.5rem;
+    outline: none;
+    background-color:transparent;
+    color: wheat;
+    /* border: none; */
+}
+.btn:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    background-color: green;
+}
+.score-count{
+    color: honeydew;
+      text-shadow: 1px 1px 2px indianred;
+    font-size: 2.5rem;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    /* border: 1px solid black; */
+    background-color: rgba(10, 10, 10, 0.746);
+    box-shadow: 2px 2px 5px 5px gray;
+    padding: 1rem;
+}
